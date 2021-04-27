@@ -14,3 +14,4 @@ for u in range(1,10,2):
 
 for t in [1,3,5,7]:
     print(t)
+print(t)
