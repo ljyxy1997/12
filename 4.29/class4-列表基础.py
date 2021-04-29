@@ -9,11 +9,15 @@ for i in a_list:
     print(i)
 t=len(a_list)#计算列表长度
 print(t)
+
 q=a_list.index(30)#计算元素位置在哪
 print(q)
+
 a=a_list.count(1)#计算某个元素有多少个
 print(a)
+
 a_list.sort()#对列表排序
 print(a_list)
+
 a_list.sort(reverse=True)#倒排序
 print(a_list)

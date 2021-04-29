@@ -34,6 +34,7 @@ elif  a==d:
     print('a==d')
 elif  a==d:
     print('同上')          #1和2的区别在于，1程序即使中途条件成立它还会继续进行下去，而2只要中间有成立则停止
+
 if a==b:
     print('a==b')
 if  a==d:

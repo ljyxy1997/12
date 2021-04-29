@@ -6,6 +6,7 @@ string1="hello"
 string2="world"
 string3=string1+string2
 print(string3)
+
 a=1
 b=2
 c=a+b
