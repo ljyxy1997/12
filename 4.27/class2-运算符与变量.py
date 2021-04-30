@@ -12,3 +12,8 @@ b=2
 c=a+b
 print('a+b=',c)
 print('a+b='+str(c))
+
+a=[1,5,4,6,9,8,7]
+b=sorted(a)
+print(a)
+
