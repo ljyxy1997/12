@@ -21,9 +21,6 @@ class human1: #类
     def __init__(self,name,age): #创建对象时会执行
         self.name=name
         self.age=age
-    #类的属性
-    name ='someone'
-    age =100
     #类的方法
     def my_name(self):
         print('my name is',self.name)
