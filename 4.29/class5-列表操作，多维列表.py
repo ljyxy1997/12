@@ -9,7 +9,7 @@ print(a_list)
 a_list.insert(2,300)#在列表中插入一个元素
 print(a_list)
 
-del a_list[2]#删除列表第2个元素
+classdel a_list[2]#删除列表第3个元素
 print(a_list)
 
 a_list.remove(30)#删除一个叫30的元素
