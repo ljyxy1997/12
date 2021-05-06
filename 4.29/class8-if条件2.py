@@ -46,5 +46,11 @@ if 'ann'<'bgg':  #由于第一个字符b大于a所以成立
 else:
     print(0)
 
-
+number=input('Please input a number:')
+if int(number) >100:
+    print('这个数大于100')
+elif int(number) ==100:
+    print('这个数等于100')
+else:
+    print('这个数小于100')   #if if第一个if成立了还得继续判断第二个if是否成立，if,elif第一个if成立了直接结束程序
 
