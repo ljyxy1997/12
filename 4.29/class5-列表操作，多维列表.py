@@ -23,5 +23,5 @@ print(b)
 print(a_list)
 
 b_list=[[1,2],[4,5],[7,8]]
-print(b_list[1])
-print(b_list[2][1])
+print(b_list[1]) #打印第二个元素
+print(b_list[2][1]) #打印第三个列表里面第二个元素
