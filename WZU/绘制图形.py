@@ -22,5 +22,7 @@ plt.show()
 fig, ax = plt.subplots(figsize=(12, 8))  #第三种方法,这种方法较好
 ax.scatter(x,y,s=10,c='b',marker='*',label='negative')
 ax.scatter(x,y-1,s=50,c='r',marker='o',label='postive')
+ax.set_xlabel('人口')
+ax.set_ylabel('收益')
 plt.legend()
 plt.show()
