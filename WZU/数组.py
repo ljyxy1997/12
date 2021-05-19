@@ -9,4 +9,12 @@ print(a)
 print('c',c)
 print('d',d)
 print(len(b))#默认打印行数
+a=np.insert(a, 0, 1, axis=1)
+#np.insert(arr, obj, values, axis)
+#arr原始数组，可一可多，obj插入元素位置，values是插入内容，axis是按行按列插入。axis=0是行
+
+
+print('a',a)
+#np.insert(arr, obj, values, axis)
+#arr原始数组，可一可多，obj插入元素位置，values是插入内容，axis是按行按列插入。
 
